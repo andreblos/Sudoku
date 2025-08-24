@@ -64,4 +64,5 @@ public class Board {
         public  boolean isFinished(){
             return !hasErrors() && getStatus() == COMPLETE;
         }
+
 }
